@@ -1,0 +1,53 @@
+﻿body {
+    margin: 0px auto;
+    direction: rtl;
+    border-spacing: 20px;
+    border-collapse: collapse;
+}
+
+table, td {
+    border: 1px dashed black;
+}
+
+td {
+    width: 50;
+    height: 50;
+    padding: 20px;
+}
+
+.math {
+    background-color: lightblue;
+}
+
+.com {
+    background-color: saddlebrown;
+}
+
+.heb {
+    background-color: green;
+}
+
+.pe {
+    background-color: aqua;
+}
+
+.t {
+    background-color: yellow;
+}
+
+.bible {
+    background-color: navy;
+}
+
+.eng {
+    background-color: indianred;
+}
+
+.y {
+    background-color: purple;
+}
+
+.ex {
+    background-color: orangered;
+}
+

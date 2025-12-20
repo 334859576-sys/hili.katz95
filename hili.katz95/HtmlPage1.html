@@ -3,15 +3,88 @@
 <head>
     <meta charset="utf-8" />
     <title>מחשבון</title>
+    <style>
+        body {
+            direction: rtl;
+            font-family: Arial;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 5px 10px;
+            text-align: center;
+        }
+
+        .msg-ok {
+            color: green;
+        }
+
+        .msg-close {
+            color: orange;
+        }
+
+        .msg-bad {
+            color: red;
+        }
+    </style>
 </head>
 <body>
-    <input type="text" size="20" name="name" id="num" disabled />
-    <span>+</span>
-    <input type="text" size="20" name="name" id="num2" disabled />
-    <span>=</span>
-    <input type="text" size="20" name="name" id="num3" />
+    <table>
+        <tr>
+            <th>מספר ראשון</th>
+            <th>+</th>
+            <th>מספר שני</th>
+            <th>=</th>
+            <th>תוצאה</th>
+            <th>הודעה</th>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" size="20" name="name" id="num1" disabled />
+            </td>
+            <td><span>+</span></td>
+            <td><input type="text" size="20" name="name" id="num2" disabled /></td>
+            <td><span>=</span></td>
+            <td><input type="text" size="20" name="name" id="num3" /></td>
+            <td><input type="text" size="20" name="name" id="m1" /></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" size="20" name="name" id="a" disabled />
+            </td>
+            <td><span>+</span></td>
+            <td><input type="text" size="20" name="name" id="b" disabled /></td>
+            <td><span>=</span></td>
+            <td><input type="text" size="20" name="name" id="c" /></td>
+            <td><input type="text" size="20" name="name" id="m2" /></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" size="20" name="name" id="a1" disabled />
+            </td>
+            <td><span>+</span></td>
+            <td><input type="text" size="20" name="name" id="b1" disabled /></td>
+            <td><span>=</span></td>
+            <td><input type="text" size="20" name="name" id="c1" /></td>
+            <td><input type="text" size="20" name="name" id="m3" /></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" size="20" name="name" id="a2" disabled />
+            </td>
+            <td><span>+</span></td>
+            <td><input type="text" size="20" name="name" id="b2" disabled /></td>
+            <td><span>=</span></td>
+            <td><input type="text" size="20" name="name" id="c3" /></td>
+            <td><input type="text" size="20" name="name" id="m4" /></td>
+        </tr>
 
-    <br />
+    </table>    <br />
     <br />
 
     <input type="button" value="שלח" onclick="checkAnswer();" />
