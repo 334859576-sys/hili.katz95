@@ -75,6 +75,7 @@
     <Content Include="..\..\..\abc\HtmlPage1.html">
       <Link>HtmlPage1.html</Link>
     </Content>
+    <Content Include="JavaScript2.js" />
     <Content Include="kof.html" />
     <Content Include="StyleSheet1.css" />
     <Content Include="table.html" />
