@@ -67,12 +67,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="..\..\..\abc\script1.js" />
     <Content Include="animals1.html" />
     <Content Include="animals2.html" />
     <Content Include="cat.html" />
     <Content Include="dog.html" />
-    <Content Include="HtmlPage1.html" />
-    <Content Include="JavaScript.js" />
+    <Content Include="..\..\..\abc\HtmlPage1.html">
+      <Link>HtmlPage1.html</Link>
+    </Content>
     <Content Include="kof.html" />
     <Content Include="StyleSheet1.css" />
     <Content Include="table.html" />
