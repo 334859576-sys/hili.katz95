@@ -68,6 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="..\..\..\abc\script1.js" />
+    <Content Include="2.html" />
+    <Content Include="3.html" />
+    <Content Include="4.html" />
+    <Content Include="5.html" />
     <Content Include="animals1.html" />
     <Content Include="animals2.html" />
     <Content Include="cat.html" />
@@ -75,6 +79,9 @@
     <Content Include="..\..\..\abc\HtmlPage1.html">
       <Link>HtmlPage1.html</Link>
     </Content>
+    <Content Include="1.html" />
+    <Content Include="Ex22.html" />
+    <Content Include="Ex22.js" />
     <Content Include="JavaScript2.js" />
     <Content Include="kof.html" />
     <Content Include="StyleSheet1.css" />
