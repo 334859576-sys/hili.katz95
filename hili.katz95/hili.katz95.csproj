@@ -82,6 +82,9 @@
     <Content Include="1.html" />
     <Content Include="Ex22.html" />
     <Content Include="Ex22.js" />
+    <Content Include="HtmlPage2.html" />
+    <Content Include="HtmlPage3.html" />
+    <Content Include="JavaScript1.js" />
     <Content Include="JavaScript2.js" />
     <Content Include="kof.html" />
     <Content Include="StyleSheet1.css" />
