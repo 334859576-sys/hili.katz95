@@ -17,7 +17,7 @@ function newNumbers() {
     document.getElementById("num2").value = num2;
 
     a = Math.floor(Math.random() * 10);
-    b = Math.floor(Math.random() * 10);
+    b = Math.floor(Math.random() * 10); 
     document.getElementById("a").value = a;
     document.getElementById("b").value = b;
 
